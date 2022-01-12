@@ -1,0 +1,4 @@
+baseURL = 'https://JWShuff.github.io'
+languageCode = 'en-us'
+title = 'Complicated Answers to Easy Questions'
+theme = "ananke"
