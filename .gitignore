@@ -1,5 +1,16 @@
+# Jekyll Ignores
 _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+# Node Ignores
+node_modules/
+.npm
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Misc Ignores
 vendor
