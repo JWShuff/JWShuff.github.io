@@ -32,6 +32,14 @@ theme: minima
 plugins:
   - jekyll-feed
 pre-commit:
+- check: FrontMatterVariableExists
+  variables: ['description']
+- check: FrontMatterVariableIsNotDuplicate
+  variables: ['description']
+- check: FrontMatterVariableMeetsLengthRequirements
+  variables: ['description', 'title']
+- check: NoDuplicateTags
+timezone: America/New_York
   
 
 # Exclude from processing.
