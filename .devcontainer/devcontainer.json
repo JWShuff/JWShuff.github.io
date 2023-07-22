@@ -24,7 +24,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "bundle | yarn install"
+	"postCreateCommand": "bundle | npm install"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
